@@ -1,7 +1,7 @@
 import iconStar from "./assets/icon-star.svg"
 export function App(){
   return(
-      <div>
+      <div className="bg-gradient-dark text-white mx-6 p-6" >
        <div>
          <img src={iconStar} alt="Icon_Star" />
        </div>
@@ -9,7 +9,7 @@ export function App(){
 
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
-        <div>
+        <div >
          <input type="button" value={1} />
          <input type="button" value={2} />
          <input type="button" value={3} />
